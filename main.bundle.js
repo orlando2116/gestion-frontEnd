@@ -3859,8 +3859,8 @@ var UsuarioService = /** @class */ (function () {
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 var environment = {
     production: false,
-    apiUrl: 'http://localhost:3000'
-    //apiUrl: 'https://gestion-restaurant.herokuapp.com'
+    //apiUrl: 'http://localhost:3000'
+    apiUrl: 'https://gestion-restaurant.herokuapp.com'
 };
 
 
