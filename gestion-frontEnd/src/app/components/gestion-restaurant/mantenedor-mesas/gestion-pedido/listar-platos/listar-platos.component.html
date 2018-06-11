@@ -1,0 +1,10 @@
+<input type="text" class="inp" placeholder="buscar..." [(ngModel)]="terminosPlato" (keyup.enter)="buscarPlatosPorTermino()" />
+<i class="inside fas fa-search-plus" (click)="buscarPlatosPorTermino()"></i>
+<ul class="list-group list-group-flush animated fadeIn">
+
+
+
+    <li class="list-group-item" *ngFor="let item of platos" (click)="agregarPlato(item)">
+        {{item.nombre}}
+    </li>
+</ul>

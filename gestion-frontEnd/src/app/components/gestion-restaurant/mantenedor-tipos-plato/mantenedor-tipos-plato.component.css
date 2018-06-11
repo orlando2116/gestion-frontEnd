@@ -1,0 +1,45 @@
+.nombreTipoPlato {
+    width: 20%;
+}
+
+li {
+    opacity: 0.7;
+}
+
+li:hover {
+    opacity: inherit;
+    cursor: pointer;
+}
+
+
+/*ul*/
+
+.list-group-flush {
+    overflow: auto;
+    height: 350px;
+}
+
+
+/*li*/
+
+.list-group-item {
+    white-space: nowrap;
+}
+
+h4 {
+    float: left;
+}
+
+.inside {
+    text-indent: 5px;
+    margin-top: 2px;
+    font-size: 25px;
+}
+
+.inp {
+    text-indent: 20px;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+    font-size: 1rem;
+}

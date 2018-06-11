@@ -1,0 +1,9 @@
+<div class="input-group">
+    <input class="form-control " type="text" placeholder="Usuario" [(ngModel)]="usuario.email" name="email">
+</div>
+<div class="input-group">
+    <input class="form-control " type="password" placeholder="Contraseña" [(ngModel)]="usuario.password" name="password">
+</div>
+<div class="input-group">
+    <button [disabled]="iniciandoSesion" class="btn btn-primary centrado" type="submit" (click)="inicarSesion()">iniciar sesion  <i *ngIf="iniciandoSesion" class="fas fa-cog fa-spin"></i></button>
+</div>

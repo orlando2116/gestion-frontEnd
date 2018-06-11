@@ -1,0 +1,24 @@
+<div class="card">
+
+    <div class="card-header">
+        <h4>Mesas</h4>
+        <app-agregar-mesa (AgregarMesa)="agregarMesa($event)"></app-agregar-mesa>
+    </div>
+    <div class="card-header">
+        <input type="text" class="inp" placeholder="buscar..." [(ngModel)]="terminos" (keyup.enter)="buscarTermino()" />
+        <i class="inside fas fa-search-plus" (click)="buscarTermino()"></i>
+    </div>
+
+
+    <ul class="list-group list-group-flush animated fadeIn">
+        <li class="list-group-item" *ngFor="let item of mesas">
+            <h6 class="nombreMesa">{{item.nombre}}</h6>
+            <div class="accionesMesas">
+
+                <app-finalizar-pedido *ngIf="item.pedidoActivo" [mesa]="item" (FinalizarPedido)="finalizarPedido($event)"></app-finalizar-pedido>
+                <app-editar-pedido *ngIf="item.pedidoActivo" [mesa]="item"></app-editar-pedido>
+                <app-gestion-pedido *ngIf="!item.pedidoActivo" [mesa]="item" (click)="gestionarPedido()" (AgregarPedido)="agregarPedido($event)"></app-gestion-pedido>
+            </div>
+        </li>
+    </ul>
+</div>

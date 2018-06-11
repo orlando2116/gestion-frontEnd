@@ -1,0 +1,22 @@
+.nombrePlato {
+    width: 20%;
+}
+
+h4 {
+    float: left;
+}
+
+.inside {
+    text-indent: 5px;
+    margin-top: 2px;
+    color: green;
+    font-size: 25px;
+}
+
+.inp {
+    text-indent: 20px;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+    font-size: 1rem;
+}

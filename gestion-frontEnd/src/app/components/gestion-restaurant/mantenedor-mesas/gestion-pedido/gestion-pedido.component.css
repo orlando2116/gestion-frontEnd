@@ -1,0 +1,29 @@
+.fa-shopping-cart {
+    float: right;
+}
+
+
+/*ul*/
+
+.list-group-flush {
+    overflow: auto;
+    height: 250px;
+}
+
+
+/*li*/
+
+.list-group-item {
+    white-space: nowrap;
+    opacity: 0.7;
+}
+
+.list-group-item:hover {
+    opacity: inherit;
+    background-color: #EFFBF2;
+    cursor: pointer;
+}
+
+.row {
+    margin: 10px;
+}

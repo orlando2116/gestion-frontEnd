@@ -1,0 +1,15 @@
+<div class="input-group">
+    <input class="form-control " type="text" placeholder="Nombre" [(ngModel)]="registroUsuario.nombre" name="nombre">
+</div>
+<div class="input-group">
+    <input class="form-control " type="text" placeholder="Email" [(ngModel)]="registroUsuario.email" name="email">
+</div>
+<div class="input-group">
+    <input class="form-control " type="password" placeholder="Contraseña" [(ngModel)]="registroUsuario.password" name="password">
+</div>
+<div class="input-group">
+    <input class="form-control " type="password" placeholder="repite Contraseña" [(ngModel)]="validaPassword" name="validaPassword">
+</div>
+<div class="input-group">
+    <button [disabled]="registrando" class="btn btn-success centrado" type="submit" (click)="registrarUsuario()">Registrate  <i *ngIf="registrando" class="fas fa-cog fa-spin"></i></button>
+</div>

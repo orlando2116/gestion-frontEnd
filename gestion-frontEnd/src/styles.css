@@ -1,0 +1,85 @@
+/* You can add global styles to this file, and also import other style files */
+
+.centrado {
+    margin: 0 auto !important;
+}
+
+button {
+    cursor: pointer;
+}
+
+input {
+    margin: 10px !important;
+}
+
+
+/*iconos*/
+
+.fas {
+    opacity: 0.7;
+}
+
+.fas:hover {
+    opacity: inherit;
+    cursor: pointer;
+}
+
+.far {
+    opacity: 0.7;
+}
+
+.far:hover {
+    opacity: inherit;
+    cursor: pointer;
+}
+
+.container-fluid {
+    margin-top: 100px;
+}
+
+
+/*iconos*/
+
+.fa-search {
+    color: #389946;
+}
+
+.fa-plus-circle {
+    color: #389946;
+}
+
+.fa-power-off {
+    color: #d12c3a;
+}
+
+.fa-trash-alt {
+    color: #d12c3a;
+}
+
+.fa-edit {
+    color: #2F72CB;
+}
+
+.fa-shopping-cart {
+    color: #D39C3F;
+}
+
+table th {
+    text-align: center;
+}
+
+table td {
+    text-align: center;
+}
+
+.fa-search-plus {
+    color: green;
+}
+
+.fa-eye {
+    color: #2F72CB;
+}
+
+.fa-money-check-alt {
+    color: green;
+}
